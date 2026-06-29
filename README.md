@@ -6,16 +6,23 @@
 
 ---
 
-## 一键安装
+## 安装方式
 
-```bash
-git clone https://github.com/xilefu/xiaoma-daily.git /tmp/xiaoma-daily && \
-cp -r /tmp/xiaoma-daily/skills/daily-news-digest /tmp/xiaoma-daily/skills/daily-news-digest-setup ~/.hermes/skills/research/ && \
-rm -rf /tmp/xiaoma-daily && \
-echo "✅ 装好了！在 Hermes 里输入: /skill daily-news-digest-setup"
+### 方式一：在 Hermes 里装（零命令行，推荐新手）🧸
+
+在 Hermes 对话框里输入下面这句话，AI 会自动帮你装好：
+
+```
+帮我安装小马日报。仓库在 https://github.com/xilefu/xiaoma-daily ，把 skills/daily-news-digest 和 skills/daily-news-digest-setup 两个目录完整复制到 ~/.hermes/skills/research/ 下。完成后告诉我输入 /skill daily-news-digest-setup。
 ```
 
-> 安装命令会把技能文件复制到 `~/.hermes/skills/research/` 目录，不会动你其他任何东西。
+> 原理：Hermes 的浏览器工具可以访问 GitHub，会自己扒文件写到本地。不需要终端。
+
+### 方式二：终端一行命令（适合会用命令行的）💻
+
+```bash
+git clone https://github.com/xilefu/xiaoma-daily.git /tmp/xiaoma-daily && cp -r /tmp/xiaoma-daily/skills/daily-news-digest /tmp/xiaoma-daily/skills/daily-news-digest-setup ~/.hermes/skills/research/ && rm -rf /tmp/xiaoma-daily
+```
 
 ---
 

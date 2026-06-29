@@ -10,13 +10,13 @@
 
 ### 方式一：在 Hermes 里装（零命令行，推荐新手）🧸
 
-在 Hermes 对话框里输入下面这句话，AI 会自动帮你装好：
+在 Hermes 对话框里粘贴下面这句话，AI 会自动下载、安装、配置：
 
 ```
-帮我安装小马日报。仓库在 https://github.com/xilefu/xiaoma-daily ，把 skills/daily-news-digest 和 skills/daily-news-digest-setup 两个目录完整复制到 ~/.hermes/skills/research/ 下。完成后告诉我输入 /skill daily-news-digest-setup。
+帮我安装小马日报。仓库在 https://github.com/xilefu/xiaoma-daily ，把 skills/daily-news-digest 和 skills/daily-news-digest-setup 两个目录完整复制到 ~/.hermes/skills/research/ ，然后加载 daily-news-digest-setup 帮我配置。
 ```
 
-> 原理：Hermes 的浏览器工具可以访问 GitHub，会自己扒文件写到本地。不需要终端。
+> 原理：Hermes 用浏览器工具从 GitHub 扒文件写到本地，然后自动运行安装向导。全程不需要终端。
 
 ### 方式二：终端一行命令（适合会用命令行的）💻
 

@@ -47,7 +47,7 @@ User asks for 小马日报, daily news digest, or a cron job runs with similar i
    - B站搜索 (`https://search.bilibili.com/all?keyword=<query>&order=pubdate`) — deep video content; cross-reference stories found on other sources. See pitfalls for search strategy.
    - **Fallback for Chinese news**: Sina Search (新浪搜索) at `https://search.sina.com.cn/?q=<query>&range=all&c=news` — usable when Google/Bing/DDG are CAPTCHA-blocked. Its trending sidebar (新浪热搜) is a bonus discovery source. See `references/sina-search.md`.
 
-2. **Selection criteria**: NOT "most important" — pick stories the agent personally finds most interesting. "你最想跟祁萌聊的". No limits on topic: tech, business, weird, human interest.
+2. **Selection criteria**: NOT "most important" — pick stories the agent personally finds most interesting. "你最想跟朋友聊的". No limits on topic: tech, business, weird, human interest.
    - **Commit fast**: After scanning a few sources, you likely already have 3 candidates in mind. Commit to them. Don't open 5 more tabs or click through to articles — the digest is a curation of impressions, not a research report. Additional detail rarely changes which stories you pick; it only delays delivery.
 
 3. **Output format** — strict:
